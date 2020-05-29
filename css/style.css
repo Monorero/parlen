@@ -286,10 +286,77 @@ body {
   padding-left: 15px;
 }
 
+.menu__guide-products .menu__guide-products-ul1 {
+  display: block;
+}
+
 .menu__guide-products:hover {
   background: #fff;
   padding: 15px;
   margin: 0 0 0 15px;
+}
+
+.menu__guide-products-ul1 {
+  display: none;
+  position: absolute;
+  top: 90px;
+  left: 476px;
+  background: #fff;
+}
+
+.menu__guide-products-ul1 li {
+  padding: 15px;
+  border-top: 1px solid #00000046;
+}
+
+.menu__guide-products-ul1 li:first-child {
+  border-top: none;
+}
+
+.menu__guide-products-ul1 li:last-child {
+  border-bottom: 1px solid #00000046;
+}
+
+.menu__guide-products-ul2 {
+  display: none;
+  position: absolute;
+  top: 90px;
+  left: 581px;
+  background: #fff;
+}
+
+.menu__guide-products-ul2 li {
+  padding: 15px;
+  border-top: 1px solid #00000046;
+}
+
+.menu__guide-products-ul2 li:first-child {
+  border-top: none;
+}
+
+.menu__guide-products-ul2 li:last-child {
+  border-bottom: 1px solid #00000046;
+}
+
+.menu__guide-products-ul3 {
+  display: none;
+  position: absolute;
+  top: 90px;
+  left: 530px;
+  background: #fff;
+}
+
+.menu__guide-products-ul3 li {
+  padding: 15px;
+  border-top: 1px solid #00000046;
+}
+
+.menu__guide-products-ul3 li:first-child {
+  border-top: none;
+}
+
+.menu__guide-products-ul3 li:last-child {
+  border-bottom: 1px solid #00000046;
 }
 
 .menu__guide-pay {
@@ -341,9 +408,23 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 270px;
-  max-height: 2000px;
+  max-height: 2400px;
   float: left;
   background: white;
+}
+
+.content__side-bar-titles-ul li {
+  margin: 10px 0 0 0;
+  border-top: 1px solid #00000046;
+  margin-right: 10px;
+  padding-top: 5px;
+  font-size: 15px;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.content__side-bar-titles-ul li:hover {
+  color: #73d4c9;
 }
 
 .content__side-bar-title {
@@ -392,24 +473,14 @@ body {
   color: #73d4c9;
 }
 
-.content__side-bar-subtitle-products-health-h2 {
+.content__side-bar-subtitle-products-titles-h2 {
   font-size: 14px;
+  text-decoration: underline;
   margin: 10px 10px 10px 0;
   -webkit-transition: color .2s;
   transition: color .2s;
 }
 
-.content__side-bar-subtitle-products-health-h2:hover {
-  color: #73d4c9;
-}
-
-.content__side-bar-subtitle-products-cosmetics-h2 {
-  font-size: 14px;
-  margin: 10px 10px 10px 0;
-  -webkit-transition: color .2s;
-  transition: color .2s;
-}
-
-.content__side-bar-subtitle-products-cosmetics-h2:hover {
+.content__side-bar-subtitle-products-titles-h2:hover {
   color: #73d4c9;
 }
